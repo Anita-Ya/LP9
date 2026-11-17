@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Landing Page</title>
+  
+  <!-- Google Fonts: Hind & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main Container: Mobile-First Max Width 450px -->
+  <main class="page-container">
+    
+    <!-- SECTION 1: HERO / HOOK -->
+    <section class="hero-section" id="hero">
+      <div class="hero-image-wrap">
+        <img 
+          src="assets/hero-banner.jpg" 
+          alt="Hero Banner" 
+          class="hero-img anim-hero-entry"
+          loading="eager"
+        >
+      </div>
+    </section>
+
+    <!-- SECTION 2: PROBLEM SECTION -->
+    <section class="problem-section" id="problem-section">
+      <h2 class="section-title anim-reveal anim-up">
+        क्या हर महीने आपको इन परेशानियों से गुज़रना पड़ता है?
+      </h2>
+
+      <!-- Infographic Alternating List with Images -->
+      <div class="infographic-list">
+        
+        <!-- ITEM 01: Circle Left, Curve Right -->
+        <div class="infographic-item item-left anim-reveal anim-left">
+          <div class="info-circle">
+            <img src="assets/images (1).jpg" alt="ज़्यादा ब्लीडिंग" class="circle-img">
+          </div>
+
+          <div class="info-card-track curve-right">
+            <span class="track-dot dot-top"></span>
+            <div class="info-card-content">
+              <h3 class="info-card-title">ज़्यादा ब्लीडिंग</h3>
+              <p class="info-card-desc">
+                बार-बार पैड बदलना या कई दिनों तक ब्लीडिंग चलते रहना।
+              </p>
+            </div>
+            <span class="track-dot dot-bottom"></span>
+          </div>
+        </div>
+
+        <!-- ITEM 02: Circle Right, Curve Left -->
+        <div class="infographic-item item-right anim-reveal anim-right">
+          <div class="info-circle">
+            <img src="assets/images (2).jpg" alt="पेट के निचले हिस्से में दर्द" class="circle-img">
+          </div>
+
+          <div class="info-card-track curve-left">
+            <span class="track-dot dot-top"></span>
+            <div class="info-card-content">
+              <h3 class="info-card-title">पेट के निचले हिस्से में दर्द</h3>
+              <p class="info-card-desc">
+                पीरियड्स के दौरान दर्द, खिंचाव या ऐंठन।
+              </p>
+            </div>
+            <span class="track-dot dot-bottom"></span>
+          </div>
+        </div>
+
+        <!-- ITEM 03: Circle Left, Curve Right -->
+        <div class="infographic-item item-left anim-reveal anim-left">
+          <div class="info-circle">
+            <img src="assets/images (3).jpg" alt="पेल्विक भारीपन" class="circle-img">
+          </div>
+
+          <div class="info-card-track curve-right">
+            <span class="track-dot dot-top"></span>
+            <div class="info-card-content">
+              <h3 class="info-card-title">पेल्विक भारीपन</h3>
+              <p class="info-card-desc">
+                पेट के निचले हिस्से में दबाव या बोझ जैसा महसूस होना।
+              </p>
+            </div>
+            <span class="track-dot dot-bottom"></span>
+          </div>
+        </div>
+
+        <!-- ITEM 04: Circle Right, Curve Left -->
+        <div class="infographic-item item-right anim-reveal anim-right">
+          <div class="info-circle">
+            <img src="assets/images (4).jpg" alt="बस 2 दिन ही रहते हैं पीरियड्स" class="circle-img">
+          </div>
+
+          <div class="info-card-track curve-left">
+            <span class="track-dot dot-top"></span>
+            <div class="info-card-content">
+              <h3 class="info-card-title">बस 2 दिन ही रहते हैं पीरियड्स</h3>
+              <p class="info-card-desc">
+                जो पहले 5-7 दिन तक रहते थे, अब सिर्फ़ 2 दिन ही रहते हैं।
+              </p>
+            </div>
+            <span class="track-dot dot-bottom"></span>
+          </div>
+        </div>
+
+        <!-- ITEM 05: Circle Left, Curve Right -->
+        <div class="infographic-item item-left anim-reveal anim-left">
+          <div class="info-circle">
+            <img src="assets/images (5).jpg" alt="कमज़ोरी और थकान" class="circle-img">
+          </div>
+
+          <div class="info-card-track curve-right">
+            <span class="track-dot dot-top"></span>
+            <div class="info-card-content">
+              <h3 class="info-card-title">कमज़ोरी और थकान</h3>
+              <p class="info-card-desc">
+                काम, सफ़र और नींद पर असर, और चिड़चिड़ापन।
+              </p>
+            </div>
+            <span class="track-dot dot-bottom"></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: PRODUCT & FOCUS SECTION -->
+    <section class="focus-section" id="focus-section">
+      <div class="focus-header">
+        <h2 class="focus-title anim-reveal anim-up">
+          महिलाओं के गर्भाशय और मासिक धर्म की देखभाल के लिए Ayurvedic Support
+        </h2>
+      </div>
+
+      <!-- Showcase with Central Product -->
+      <div class="showcase-container">
+        <!-- Focus Point 1 (Top Left) -->
+        <div class="focus-callout callout-top-left anim-reveal anim-left">
+          <div class="focus-callout-circle">
+            <i class="fa-solid fa-shield-heart"></i>
+          </div>
+          <span class="focus-callout-text">गर्भाशय की देखभाल</span>
+        </div>
+
+        <!-- Focus Point 2 (Top Right) -->
+        <div class="focus-callout callout-top-right anim-reveal anim-right">
+          <div class="focus-callout-circle">
+            <i class="fa-solid fa-spa"></i>
+          </div>
+          <span class="focus-callout-text">मासिक धर्म में आराम और सहारा</span>
+        </div>
+
+        <!-- Central Product Image -->
+        <div class="central-product-wrapper anim-reveal anim-pop floating-product">
+          <img 
+            src="assets/fibrocare-product.jpg" 
+            alt="FibroCare Capsules" 
+            class="central-product-image"
+          >
+        </div>
+
+        <!-- Focus Point 3 (Bottom Left) -->
+        <div class="focus-callout callout-bottom-left anim-reveal anim-left">
+          <div class="focus-callout-circle">
+            <i class="fa-regular fa-calendar-check"></i>
+          </div>
+          <span class="focus-callout-text">रोज़ की स्वास्थ्य रूटीन</span>
+        </div>
+
+        <!-- Focus Point 4 (Bottom Right) -->
+        <div class="focus-callout callout-bottom-right anim-reveal anim-right">
+          <div class="focus-callout-circle">
+            <i class="fa-solid fa-venus"></i>
+          </div>
+          <span class="focus-callout-text">महिला स्वास्थ्य को समग्र सहयोग</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
