@@ -900,6 +900,10 @@ body {
   margin: 0 auto 22px;
 }
 
+.trust-card:first-child img {
+  transform: scale(1.22);
+}
+
 .trust-card h3 {
   color: #261b20;
   font: 700 20px/1.25 var(--font-body);
