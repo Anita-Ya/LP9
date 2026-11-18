@@ -95,7 +95,7 @@ body {
   position: relative;
   overflow-x: hidden;
   /* Keep the last section clear of the fixed order bar. */
-  padding-bottom: 105px;
+  padding-bottom: 36px;
 }
 
 /* ========================================================
@@ -1408,19 +1408,18 @@ body {
 
 .disclaimer-box {
   margin-top: 24px;
-  padding: 14px 16px;
-  border-left: 3px solid #edc6d3;
-  border-radius: 0 16px 16px 0;
-  background: #fffafc;
+  padding: 14px 10px;
+  border: 0;
+  border-radius: 0;
+  background: #fff0f4;
 }
 
 .disclaimer-box h3 {
-  color: #b98698;
-  font: 700 18px/1.25 var(--font-heading);
+  display: none;
 }
 
 .disclaimer-box p {
-  margin-top: 5px;
+  margin-top: 0;
   color: #897b80;
   font: 400 12px/1.45 var(--font-heading);
 }
@@ -1428,13 +1427,15 @@ body {
 .legal-links {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 20px;
-  padding-top: 18px;
+  flex-wrap: nowrap;
+  gap: 5px;
+  margin-top: 8px;
+  padding-top: 10px;
   border-top: 1px solid #eadde1;
   color: #aaa0a4;
-  font: 400 14px/1.5 var(--font-body);
+  font: 400 9px/1.2 var(--font-body);
+  white-space: nowrap;
+  letter-spacing: -0.15px;
   text-align: center;
 }
 
@@ -1463,11 +1464,11 @@ body {
 }
 
 .policy-dialog {
-  width: min(100%, 720px);
-  max-height: min(88vh, 720px);
+  width: min(100%, 505px);
+  max-height: min(86vh, 560px);
   overflow: hidden;
   border: 2px solid #f1d3dd;
-  border-radius: 28px;
+  border-radius: 22px;
   background: #fff;
   box-shadow: 0 18px 45px rgba(38, 27, 32, 0.3);
 }
@@ -1476,32 +1477,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 24px;
+  padding: 15px 20px;
   border-bottom: 1px solid #eadde1;
 }
 
 .policy-dialog-header h2 {
   color: #261b20;
-  font: 800 25px/1.25 var(--font-heading);
+  font: 800 21px/1.25 var(--font-heading);
 }
 
 .policy-close {
   display: grid;
-  width: 44px;
-  height: 44px;
+  width: 38px;
+  height: 38px;
   place-items: center;
   border: 0;
   border-radius: 50%;
   background: #fce4ec;
   color: var(--color-main);
   cursor: pointer;
-  font: 400 32px/1 var(--font-body);
+  font: 400 27px/1 var(--font-body);
 }
 
 .policy-dialog-body {
-  max-height: calc(min(88vh, 720px) - 90px);
+  max-height: calc(min(86vh, 560px) - 70px);
   overflow-y: auto;
-  padding: 26px 28px 32px;
+  padding: 20px 20px 24px;
   color: #5d5256;
   font: 400 16px/1.6 var(--font-heading);
 }
