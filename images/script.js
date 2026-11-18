@@ -88,9 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       if (!isValid) return;
 
-      landingPage.hidden = true;
-      thankyouPage.hidden = false;
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.location.href = 'thankyou.html';
     });
   }
 
